@@ -39,7 +39,7 @@ class _WebViewPageState extends State<WebViewPage> {
             children: <Widget>[
               Expanded(
                 child: InAppWebView(
-                  initialUrlRequest: URLRequest(url: WebUri("https://ukayukaysupplier.com/login/")),
+                  initialUrlRequest: URLRequest(url: WebUri("https://store.ukayukaysupplier.com/")),
                   initialOptions: InAppWebViewGroupOptions(
                     crossPlatform: InAppWebViewOptions(
                         useOnDownloadStart: true
